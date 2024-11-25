@@ -1,0 +1,1 @@
+export { default as DynamicSlider } from './components/DynamicSlider';
