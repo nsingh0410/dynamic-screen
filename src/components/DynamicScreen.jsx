@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { socket } from '../service/socket';
 import TimerComponent from './Timer.jsx';
 import useFadeTransition from '../hooks/useFadeTransition.js';
-const DynamicSlider = ({
+const DynamicScreen = ({
   socketEventName = 'another', // Default socket event name
   clearSliderEventSuffix = '-clearSlider', // Default clear slider event suffix
   containerId = 'base-slider-container', // Default container id
@@ -48,4 +48,4 @@ const DynamicSlider = ({
   );
 };
 
-export default DynamicSlider;
+export default DynamicScreen;

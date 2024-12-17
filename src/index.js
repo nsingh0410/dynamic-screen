@@ -1,1 +1,1 @@
-export { default as DynamicSlider } from './components/DynamicSlider';
+export { default as DynamicScreen } from './components/DynamicScreen';
